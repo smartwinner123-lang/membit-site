@@ -1,140 +1,162 @@
-<!-- privacy.html -->
 <!doctype html>
 <html lang="en">
-<head>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Membit — Privacy Policy</title>
+    <meta name="description" content="Membit Privacy Policy" />
+    <link rel="stylesheet" href="/styles.css" />
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Membit – Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for Membit." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="nav">
-    <div class="container nav-inner">
-      .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
-.brand-logo{width:36px;height:36px;border-radius:10px}
-.brand-name{font-weight:800;letter-spacing:.2px}
+    <!-- Optional icons (only if these files exist in the same folder) -->
+    <link rel="icon" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180.png" />
+  </head>
 
-      <nav class="nav-links">
-        <a href="privacy.html" aria-current="page">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="support.html">Support</a>
-      </nav>
-    </div>
-  </header>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="/">
+          <img class="brand-logo" src="/logo-256.png" alt="Membit logo" />
+          <span class="brand-name">Membit</span>
+        </a>
 
-  <main class="container prose">
-    <h1>Privacy Policy</h1>
-    <p class="kicker">Effective date: <strong>2026-01-01</strong></p>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
+          <a href="/support">Support</a>
+        </nav>
+      </div>
+    </header>
 
-    <p>
-      This Privacy Policy explains how <strong>Membit</strong> (“we”, “us”) collects, uses, and shares information
-      when you use the Membit mobile app and related services (the “Service”).
-    </p>
+    <main class="container prose">
+      <h1>Privacy Policy</h1>
+      <p class="muted">Effective date: 2026-01-01</p>
 
-    <h2>1) Who controls your data</h2>
-    <p>
-      The data controller is the Membit developer/operator. If you have questions or requests, contact:
-      <a href="mailto:support@membit.app">support@membit.app</a>.
-    </p>
+      <p>
+        This Privacy Policy explains how Membit (“we”, “us”) collects, uses, and shares information when you use the
+        Membit mobile app and related services (the “Service”).
+      </p>
 
-    <h2>2) What we collect</h2>
-    <ul>
-      <li><strong>Account information</strong>: when you sign in with Apple or Google, we receive an identifier for your account and basic profile info (such as name/email if you choose to share it).</li>
-      <li><strong>App data you create</strong>: vocabulary lists, learning progress, streaks, settings, and other content you enter in the app.</li>
-      <li><strong>Device & diagnostics</strong>: app version, device type/OS, crash logs, and performance data to keep the app reliable and fix bugs.</li>
-      <li><strong>Purchase status</strong>: whether you have an active subscription or premium access (we do not store your full payment card details if purchases are handled by the App Store / Play Store).</li>
-    </ul>
+      <h2>1) Who controls your data</h2>
+      <p>
+        The data controller is the Membit developer/operator. If you have questions or requests, contact:
+        <a href="mailto:support@membit.app">support@membit.app</a>.
+      </p>
 
-    <h2>3) How we use your data</h2>
-    <ul>
-      <li>Provide core features (sign-in, saving progress, syncing across devices).</li>
-      <li>Maintain security, prevent fraud/abuse, and protect accounts.</li>
-      <li>Improve the Service (debugging, performance, and feature improvements).</li>
-      <li>Customer support (responding to your requests).</li>
-    </ul>
+      <h2>2) Information we collect</h2>
+      <ul>
+        <li>
+          <strong>Account information:</strong> If you sign in with Apple or Google, we receive an identifier for your
+          account and basic profile info you choose to share (e.g., name/email depending on provider settings).
+        </li>
+        <li>
+          <strong>App data you create:</strong> Vocabulary lists, learning progress, streaks, settings, and other content
+          you enter in the app.
+        </li>
+        <li>
+          <strong>Device & diagnostics:</strong> App version, device type/OS, crash logs, and performance data to keep the
+          app reliable and fix bugs (when available).
+        </li>
+        <li>
+          <strong>Subscription / purchase status:</strong> Whether you have an active subscription or premium access.
+          <em>We do not store full payment card details.</em>
+        </li>
+      </ul>
 
-    <h2>4) Authentication (Sign in with Apple / Google)</h2>
-    <p>
-      You can sign in using Apple or Google. These providers authenticate you and may share limited information with us
-      based on your settings with them. We use this to create/verify your Membit account and keep it secure.
-    </p>
+      <h2>3) Payments and subscriptions</h2>
+      <p>
+        Purchases are processed by Apple App Store or Google Play. We use <strong>RevenueCat</strong> to help manage
+        subscriptions (e.g., entitlement status and subscription lifecycle). RevenueCat may process purchase-related data
+        (such as product identifiers, subscription status, and device/app identifiers) to provide subscription services.
+      </p>
 
-    <h2>5) Our service providers (Supabase)</h2>
-    <p>
-      We use <strong>Supabase</strong> to store and sync your account and app data (for example, progress and settings).
-      Supabase acts as a processor on our behalf. We only use providers that are necessary to run the Service.
-    </p>
+      <h2>4) How we use information</h2>
+      <ul>
+        <li>Provide and maintain the Service (accounts, sync, progress tracking).</li>
+        <li>Personalize your experience (e.g., learning schedule and settings).</li>
+        <li>Operate subscriptions and verify access to paid features.</li>
+        <li>Improve reliability, troubleshoot, and fix bugs.</li>
+        <li>Respond to support requests and communicate about the Service.</li>
+      </ul>
 
-    <h2>6) Payments & subscriptions (RevenueCat)</h2>
-<p>
-  Membit uses <strong>RevenueCat</strong> to help manage subscriptions and in-app purchases.
-  Purchases are processed by the <strong>Apple App Store</strong> or <strong>Google Play</strong> (not by us).
-  We receive subscription status information (for example: active/inactive, product tier, and renewal state)
-  so we can unlock Premium features and provide customer support.
-  We do not receive your full payment card information from Apple or Google.
-</p>
+      <h2>5) Where your data is stored</h2>
+      <p>
+        We use <strong>Supabase</strong> as our backend/database provider. Your account and app data may be stored and
+        processed on Supabase infrastructure and related cloud providers.
+      </p>
 
+      <h2>6) How we share information</h2>
+      <p>We share information only as needed to run the Service, for example with:</p>
+      <ul>
+        <li><strong>Supabase</strong> (database/auth infrastructure).</li>
+        <li><strong>RevenueCat</strong> (subscription management and entitlement status).</li>
+        <li><strong>Apple / Google</strong> (authentication and in-app purchase processing).</li>
+      </ul>
+      <p>
+        We may also share information if required by law, to protect safety and rights, or in connection with a business
+        transfer (e.g., acquisition).
+      </p>
 
-    <h2>7) Sharing</h2>
-    <p>We do not sell your personal data. We may share information only:</p>
-    <ul>
-      <li>With service providers that help operate the app (like hosting/storage) under contract.</li>
-      <li>If required by law, legal process, or to protect rights, safety, and security.</li>
-      <li>In a business transfer (merger/acquisition), with appropriate safeguards.</li>
-    </ul>
+      <h2>7) Data retention</h2>
+      <p>
+        We keep your data for as long as your account is active or as needed to provide the Service. You can request
+        deletion (see below). Some information may be retained if required by law or for legitimate business purposes
+        (e.g., fraud prevention).
+      </p>
 
-    <h2>8) Data retention</h2>
-    <p>
-      We keep your data as long as your account is active or as needed to provide the Service.
-      We may retain limited data for legal, security, or fraud-prevention purposes.
-    </p>
+      <h2>8) Your choices and rights</h2>
+      <ul>
+        <li><strong>Access / correction:</strong> You can request a copy or correction of your data.</li>
+        <li><strong>Delete your data:</strong> You can request account deletion and removal of associated app data.</li>
+        <li><strong>Withdraw consent:</strong> Where applicable, you may withdraw consent for certain processing.</li>
+      </ul>
+      <p>
+        To make a request, email <a href="mailto:support@membit.app">support@membit.app</a> from the email associated with
+        your account.
+      </p>
 
-    <h2>9) Your choices & rights</h2>
-    <ul>
-      <li><strong>Access / correction</strong>: you can review or update certain information in the app.</li>
-      <li><strong>Delete your account</strong>: request deletion by emailing <a href="mailto:support@membit.app">support@membit.app</a>.</li>
-      <li><strong>Data export</strong>: request a copy of your data by emailing us.</li>
-    </ul>
+      <h2>9) Security</h2>
+      <p>
+        We use reasonable safeguards to protect information. No method of transmission or storage is 100% secure, so we
+        cannot guarantee absolute security.
+      </p>
 
-    <h2>10) Security</h2>
-    <p>
-      We use reasonable technical and organizational measures to protect your data, but no system is 100% secure.
-    </p>
+      <h2>10) Children’s privacy</h2>
+      <p>
+        The Service is not intended for children under 13. If you believe a child has provided personal data, contact us
+        and we will take appropriate steps.
+      </p>
 
-    <h2>11) Children</h2>
-    <p>
-      Membit is not intended for children under 13. If you believe a child has provided personal data, contact us and we will take appropriate steps.
-    </p>
+      <h2>11) International transfers</h2>
+      <p>
+        Your information may be processed in countries other than where you live (for example, where our service
+        providers operate). Those countries may have different data protection laws.
+      </p>
 
-    <h2>12) Changes</h2>
-    <p>
-      We may update this policy from time to time. We will update the effective date and, when appropriate,
-      provide notice in the app or on this page.
-    </p>
+      <h2>12) Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will revise the effective date above and may provide
+        additional notice in the app or on this page.
+      </p>
 
-    <hr />
-    <p class="small">
-      Contact: <a href="mailto:support@membit.app">support@membit.app</a>
-    </p>
-  </main>
+      <h2>13) Contact</h2>
+      <p>
+        Questions? Email <a href="mailto:support@membit.app">support@membit.app</a>.
+      </p>
 
-  <footer class="footer">
-    <div class="container">
-      <span>© <span id="y"></span> Membit</span>
-      <span class="footer-links">
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="support.html">Support</a>
-      </span>
-    </div>
-  </footer>
+      <p class="small muted">
+        Note: This template is provided for convenience and should be reviewed for your specific legal requirements.
+      </p>
+    </main>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
-</body>
+    <footer class="footer">
+      <div class="container">
+        <span class="muted">© <span id="y"></span> Membit</span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
