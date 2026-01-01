@@ -1,84 +1,50 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Membit — Support</title>
-    <meta name="description" content="Membit Support and Help" />
-    <link rel="stylesheet" href="/styles.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Membit — Support</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180.png" />
+</head>
 
-    <link rel="icon" href="/favicon-32.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon-180.png" />
-  </head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <img class="brand-logo" src="/assets/logo-128.png" alt="Membit logo" />
+        <span class="brand-name">Membit</span>
+      </a>
 
-  <body>
-    <header class="nav">
-      <div class="container nav-inner">
-        <a class="brand" href="/">
-          <img class="brand-logo" src="/logo-256.png" alt="Membit logo" />
-          <span class="brand-name">Membit</span>
-        </a>
+      <nav class="nav-links">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/support">Support</a>
+      </nav>
+    </div>
+  </header>
 
-        <nav class="nav-links" aria-label="Primary">
-          <a href="/privacy">Privacy</a>
-          <a href="/terms">Terms</a>
-          <a href="/support">Support</a>
-        </nav>
-      </div>
-    </header>
-
-    <main class="container prose">
+  <main class="container">
+    <section class="card prose">
       <h1>Support</h1>
-      <p class="muted">
-        Need help? Email <a href="mailto:membit.help@gmail.com">membit.help@gmail.com</a> (please include your device model, iOS/Android version,
-        and app version).
-      </p>
-
-      <h2>Frequently asked questions</h2>
-
-      <h3>How do I manage or cancel my subscription?</h3>
-      <ul>
-        <li><strong>iOS (App Store):</strong> Settings → Apple ID → Subscriptions → Membit</li>
-        <li><strong>Android (Google Play):</strong> Play Store → Profile → Payments & subscriptions → Subscriptions</li>
-      </ul>
-      <p>
-        We use <strong>RevenueCat</strong> to manage subscription access, but billing/cancellation is done through Apple/Google.
-      </p>
-
-      <h3>I paid but premium isn’t unlocked.</h3>
-      <ul>
-        <li>Make sure you’re signed into the same Apple/Google account you used to purchase.</li>
-        <li>Try closing and reopening the app.</li>
-        <li>If the app has a “Restore Purchases” button, tap it.</li>
-        <li>If it still doesn’t work, email us with a screenshot of your subscription status page.</li>
-      </ul>
-
-      <h3>How do I delete my account and data?</h3>
-      <p>
-        Email <a href="mailto:membit.help@gmail.com">membit.help@gmail.com</a> from the email associated with your account with the subject:
-        <strong>“Delete my Membit account”</strong>. We will verify your request and delete your account and associated app data where applicable.
-      </p>
-
-      <h3>How is my data stored?</h3>
-      <p>
-        We use <strong>Supabase</strong> to store account and app data (e.g., progress). See our
-        <a href="/privacy">Privacy Policy</a> for details.
-      </p>
+      <p class="kicker">Need help? Contact us and we’ll reply as soon as possible.</p>
 
       <h2>Contact</h2>
       <p>
-        Email: <a href="mailto:membit.help@gmail.com">membit.help@gmail.com</a>
+        Email: <a href="mailto:support@membit.app">support@membit.app</a>
+        <!-- Replace with your real support email -->
       </p>
-    </main>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="muted">© <span id="y"></span> Membit</span>
-      </div>
-    </footer>
+      <h2>Common topics</h2>
+      <ul>
+        <li><strong>Login issues (Apple/Google):</strong> include your device model + iOS/Android version.</li>
+        <li><strong>Subscription / billing:</strong> include whether it’s App Store or Google Play, and a screenshot of your subscription status.</li>
+        <li><strong>Restore purchases:</strong> try “Restore Purchases” in the app (if available) and confirm you’re using the same Apple/Google account.</li>
+        <li><strong>Bug report:</strong> include steps to reproduce + screenshots.</li>
+      </ul>
+    </section>
+  </main>
 
-    <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
-    </script>
-  </body>
-</html>
+  <footer class="footer">
+    <div class="conta
