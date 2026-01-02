@@ -4,8 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Membit — Support</title>
+
   <link rel="stylesheet" href="/styles.css" />
-  <img class="brand-logo" src="/assets/logo-256.png" alt="Membit logo" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180.png" />
 </head>
 
 <body>
@@ -19,31 +21,35 @@
       <nav class="nav-links">
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
-        <a href="/support">Support</a>
+        <a href="/support" aria-current="page">Support</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section class="card prose">
-      <h1>Support</h1>
-      <p class="kicker">Need help? Contact us and we’ll reply as soon as possible.</p>
+  <main class="page">
+    <div class="container">
+      <section class="card">
+        <h1>Support</h1>
+        <p class="muted">Need help? Contact us and we’ll reply as soon as possible.</p>
 
-      <h2>Contact</h2>
-      <p>
-        Email: <a href="mailto:membit.help@gmail.com">membit.help@gmail.com</a>
-        <!-- Replace with your real support email -->
-      </p>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:membit.help@gmail.com">membit.help@gmail.com</a></p>
 
-      <h2>Common topics</h2>
-      <ul>
-        <li><strong>Login issues (Apple/Google):</strong> include your device model + iOS/Android version.</li>
-        <li><strong>Subscription / billing:</strong> include whether it’s App Store or Google Play, and a screenshot of your subscription status.</li>
-        <li><strong>Restore purchases:</strong> try “Restore Purchases” in the app (if available) and confirm you’re using the same Apple/Google account.</li>
-        <li><strong>Bug report:</strong> include steps to reproduce + screenshots.</li>
-      </ul>
-    </section>
+        <h2>Common topics</h2>
+        <ul>
+          <li><strong>Login issues (Apple/Google):</strong> include your device model + iOS/Android version.</li>
+          <li><strong>Subscription / billing:</strong> tell us whether it’s App Store or Google Play, and include a screenshot of your subscription status.</li>
+          <li><strong>Restore purchases:</strong> try “Restore Purchases” in the app (if available) and confirm you’re using the same Apple/Google account.</li>
+          <li><strong>Bug report:</strong> include steps to reproduce + screenshots.</li>
+        </ul>
+      </section>
+    </div>
   </main>
 
   <footer class="footer">
-    <div class="conta
+    <div class="container">
+      <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/support">Support</a>
+    </div>
+  </footer>
+</body>
+</html>
